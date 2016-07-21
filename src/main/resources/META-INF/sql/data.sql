@@ -1,0 +1,75 @@
+INSERT INTO BOOK (TITLE, PRICE, NBOFPAGE, DESCRIPTION)
+VALUES ('My experiments with Truth', '101', '200', 'Book about experiments with Truth');
+INSERT INTO BOOK (TITLE, PRICE, NBOFPAGE, DESCRIPTION)
+VALUES ('Far from the Madding Crowd', '102', '300', 'Book about Madding Crowd');
+INSERT INTO BOOK (TITLE, PRICE, NBOFPAGE, DESCRIPTION)
+VALUES ('Geetanjali', '103', '400', 'Book about Geetanjali');
+INSERT INTO BOOK (TITLE, PRICE, NBOFPAGE, DESCRIPTION)
+VALUES ('One Day in the Life of Ivan Denisovitch', '104', '500', 'Book about One Day in the Life of Ivan Denisovitch');
+INSERT INTO BOOK (TITLE, PRICE, NBOFPAGE, DESCRIPTION)
+VALUES ('The Merchant of venice', '105', '600', 'Book about  merchant of venice');
+INSERT INTO BOOK (TITLE, PRICE, NBOFPAGE, DESCRIPTION)
+VALUES ('The Moon and Six pense', '106', '700', 'Book about  Moon and Six pense');
+INSERT INTO BOOK (TITLE, PRICE, NBOFPAGE, DESCRIPTION)
+VALUES ('Pilgrims Progress from this world to that which is to come', '107', '800',
+        'Book about pilgrims progress from this world to that which is to come');
+INSERT INTO BOOK (TITLE, PRICE, NBOFPAGE, DESCRIPTION)
+VALUES ('A Tale of Two Cities', '108', '900', 'Book about  Tale of Two Cities');
+INSERT INTO BOOK (TITLE, PRICE, NBOFPAGE, DESCRIPTION)
+VALUES ('Utopia', '109', '950', 'Book about utopia');
+INSERT INTO BOOK (TITLE, PRICE, NBOFPAGE, DESCRIPTION)
+VALUES ('Origin of species', '110', '350', 'Book about origin of species');
+INSERT INTO BOOK (TITLE, PRICE, NBOFPAGE, DESCRIPTION)
+VALUES ('David Copperfield', '111', '400', 'Book about David Copperfield');
+INSERT INTO BOOK (TITLE, PRICE, NBOFPAGE, DESCRIPTION)
+VALUES ('Zolotoy telyonok', '112', '400', 'Book about Ostap Bender');
+INSERT INTO AUTHOR (NAME)
+VALUES ('Mahatma M.K.Gandhi');
+INSERT INTO AUTHOR (NAME)
+VALUES ('Thomas Hardy');
+INSERT INTO AUTHOR (NAME)
+VALUES ('Rabindra Nath Tagore');
+INSERT INTO AUTHOR (NAME)
+VALUES ('Alexander Solzhenitsyn');
+INSERT INTO AUTHOR (NAME)
+VALUES ('William Shakespeare');
+INSERT INTO AUTHOR (NAME)
+VALUES ('Somerset Maughan');
+INSERT INTO AUTHOR (NAME)
+VALUES ('John Bunyan');
+INSERT INTO AUTHOR (NAME)
+VALUES ('Charles Dickens');
+INSERT INTO AUTHOR (NAME)
+VALUES ('Sir Thomas Moor');
+INSERT INTO AUTHOR (NAME)
+VALUES ('Charles Darwin');
+INSERT INTO AUTHOR (NAME)
+VALUES ('Ilf Ilya ');
+INSERT INTO AUTHOR (NAME)
+VALUES ('Petrov Yevgeni');
+INSERT INTO BOOK_AUTHOR (BOOK_ID, AUTHOR_ID)
+VALUES ('1', '1');
+INSERT INTO BOOK_AUTHOR (BOOK_ID, AUTHOR_ID)
+VALUES ('2', '2');
+INSERT INTO BOOK_AUTHOR (BOOK_ID, AUTHOR_ID)
+VALUES ('3', '3');
+INSERT INTO BOOK_AUTHOR (BOOK_ID, AUTHOR_ID)
+VALUES ('4', '4');
+INSERT INTO BOOK_AUTHOR (BOOK_ID, AUTHOR_ID)
+VALUES ('5', '5');
+INSERT INTO BOOK_AUTHOR (BOOK_ID, AUTHOR_ID)
+VALUES ('6', '6');
+INSERT INTO BOOK_AUTHOR (BOOK_ID, AUTHOR_ID)
+VALUES ('7', '7');
+INSERT INTO BOOK_AUTHOR (BOOK_ID, AUTHOR_ID)
+VALUES ('8', '8');
+INSERT INTO BOOK_AUTHOR (BOOK_ID, AUTHOR_ID)
+VALUES ('9', '9');
+INSERT INTO BOOK_AUTHOR (BOOK_ID, AUTHOR_ID)
+VALUES ('10', '10');
+INSERT INTO BOOK_AUTHOR (BOOK_ID, AUTHOR_ID)
+VALUES ('11', '8');
+INSERT INTO BOOK_AUTHOR (BOOK_ID, AUTHOR_ID)
+VALUES ('12', '11');
+INSERT INTO BOOK_AUTHOR (BOOK_ID, AUTHOR_ID)
+VALUES ('12', '12');
