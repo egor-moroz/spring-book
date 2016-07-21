@@ -6,9 +6,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * Created by ???? on 01.07.2016.
- */
 
 public interface BookRepository {
 

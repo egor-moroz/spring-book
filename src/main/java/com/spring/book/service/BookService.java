@@ -5,9 +5,7 @@ import com.spring.book.model.Book;
 
 import java.util.List;
 
-/**
- * Created by ???? on 01.07.2016.
- */
+
 public interface BookService {
 
 	List<Book> findAllBooks();

@@ -11,9 +11,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-/**
- * Created by ???? on 01.07.2016.
- */
 
 @Service("bookService")
 public class BookServiceImpl implements BookService {

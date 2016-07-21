@@ -10,9 +10,6 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import java.util.List;
 
-/**
- * Created by ???? on 01.07.2016.
- */
 @Repository
 public class JpaAuthorRepositoryImpl implements AuthorRepository {
 
@@ -32,6 +29,7 @@ public class JpaAuthorRepositoryImpl implements AuthorRepository {
 			this.entityManager.merge(author);
 		}
 	}
+
 	@Transactional(readOnly = true)
 	public Author findById(Long id) {
 		Query query = this.entityManager.createQuery("select distinct author FROM Author author where author.id =:id");
