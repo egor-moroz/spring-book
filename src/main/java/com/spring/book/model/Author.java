@@ -70,6 +70,11 @@ public class Author {
 
 	}
 
-
-
+	@Override
+	public int hashCode() {
+		int result = getId().hashCode();
+		result = 31 * result + getName().hashCode();
+		result = 31 * result + (getBooks() != null ? getBooks().hashCode() : 0);
+		return result;
+	}
 }

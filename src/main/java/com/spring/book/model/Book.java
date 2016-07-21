@@ -126,6 +126,13 @@ public class Book {
 
 	}
 
-
-
+	@Override
+	public int hashCode() {
+		int result = getId() != null ? getId().hashCode() : 0;
+		result = 31 * result + (getTitle() != null ? getTitle().hashCode() : 0);
+		result = 31 * result + (getPrice() != null ? getPrice().hashCode() : 0);
+		result = 31 * result + (getDescription() != null ? getDescription().hashCode() : 0);
+		result = 31 * result + (getNbOfPage() != null ? getNbOfPage().hashCode() : 0);
+		return result;
+	}
 }
