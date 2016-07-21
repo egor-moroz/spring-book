@@ -3,9 +3,9 @@
 <html>
 <jsp:forward page="/book"/>
 <head>
-    <title>Title</title>
+    <title>My training spring web application</title>
 </head>
 <body>
-Hellow WORLD!!
+Hellow in my training spring web application
 </body>
 </html>
