@@ -1,7 +1,8 @@
-package com.spring.book.service;
+package com.spring.book.service.impl;
 
 import com.spring.book.model.Author;
 import com.spring.book.model.Book;
+import com.spring.book.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;

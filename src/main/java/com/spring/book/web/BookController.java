@@ -2,8 +2,7 @@ package com.spring.book.web;
 
 import com.spring.book.model.Author;
 import com.spring.book.model.Book;
-import com.spring.book.service.BookService;
-import com.spring.book.service.BookServiceImpl;
+import com.spring.book.service.impl.BookServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
@@ -14,7 +13,6 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.beans.PropertyEditorSupport;
-import java.util.Set;
 
 @Controller
 @RequestMapping("/book")
